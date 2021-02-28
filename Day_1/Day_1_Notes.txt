@@ -1,0 +1,17 @@
+Notes:
+
+This meta tag ensures that the display width is always appropriate for the device the webpage is being viewed on:
+<meta name="viewport" content="width=device-width, inital-scale=1">
+
+<h1> tags help search engines find your page and determine relevance! Use it wisely. BUT do not use more than one or you could be considered spam.
+
+Put all headers under a <header> tag so they can all be easily styled at once.
+
+Only use images that are copyright free so you do not get taken down.
+
+<a href="#top">Home</a> is an Anchor tag that acts like a link. This can be used instead of buttons in the right scenario. Whatever comes after the # must be a tags id if you want it to jump to that part of the page.
+
+id's are names you can give tags so they can be easily referenced
+
+HTML is for the content of the site
+CSS is for the visual appeal
