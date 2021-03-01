@@ -1,0 +1,37 @@
+Using CSS we can reference the HTML code by their tags, classes or their id's.
+ID's are uniqe, classes can be referenced multiple times.
+
+header{} - tag
+#top{} - id
+.grouped() - class
+
+Keep in mind how easy your website is to read.
+
+Margin is the space around the tag
+Padding is the space inside the tag
+
+Child elements can override their Parents styling
+
+#navigationBar a {} - This references all the <a> (anchor tags) within the navigation bar for styling because the default color of links is blue
+#navigationBar {} - This is the general tag
+
+position:sticky keeps the navigation bar 'stuck' to the page, giving it a postion of top:0 means when a link is pressed he navigation bar sticks to the very top of the page.
+
+Using %'s instead of px's means that your website will look good across all devices, being responsive to the screen width and height.
+
+Display flex is more modern than block. inline, inline block.
+By default flex lays out all the page elements in one row.
+By wrapping elements in a <div> we tell flex to put everything within it in one column.
+Sidebar is in a div and main is in a div so they are displayed side by side with their comment in their column.
+Setting the flex % per class in the CSS determines how much space that div and its items get to work with.
+
+@media screen and (max-width: 700px){
+    
+}
+
+We can use the @ with programming logic to change the css based on the critera we set. For this example, if the media screen has a width of 700px or less, it will apply the styling that is within it, overriding the default settings.
+
+Desktop First development means the default CSS is for desktop and the @media is for device changes.
+Mobile First development means the deafult CSS is developed for phones and the @media is for desktop compliance.
+
+Developing for different browsers is just as important as developing for different devices. Internet Explorer (who woulda gussed) does not understand display: flex; it uses display: -ms-flexbox; instead.
