@@ -1,17 +1,16 @@
 var buttons = document.querySelectorAll(".playerMove");
-
-buttons.forEach((button) => {
-    button.addEventListener("click", startRound);
-});
-
 var playerHand = document.getElementById("playerHand");
 var computerHand = document.getElementById("computerHand");
 var playerScoreDiv = document.getElementById("playerScore");
 var computerScoreDiv = document.getElementById("computerScore");
+
 var playerScore = 0;
 var computerScore = 0;
-
 var hands = ["Rock", "Paper", "Scissors"];
+
+buttons.forEach((button) => {
+    button.addEventListener("click", startRound);
+});
 
 function startRound() {
     computerChoice = Math.floor(Math.random() * 3);
