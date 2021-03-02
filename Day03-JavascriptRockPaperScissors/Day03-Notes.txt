@@ -1,0 +1,16 @@
+document.querySelectorAll(".playerMove"); queries a document and selects all elements with the class .playerMove, which we gave to our three buttons. This will let us control them via Javascript.
+
+
+buttons.forEach(button => {
+    button.addEventListener("click", startRound);
+});
+
+
+
+buttons.forEach(); For each item in buttons, do what is defined in the curly brackets
+
+button => {} refers to the specific button we are looping through. Whatever is written in the brackets is applied to the button
+
+button.addEventListener("click", startRound); whenever there is a click event, call the function startRound.
+
+`Player: ${this.textContent}` is the same as "Player: " + this.textContent;
