@@ -1,0 +1,5 @@
+Written in JSX, Javascript, Babel
+Easier for large web projects.
+There is a wide variety of libraries available for use as well.
+
+Used by Uber, Facebook, Twitter, etc
